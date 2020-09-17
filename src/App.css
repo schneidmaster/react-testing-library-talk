@@ -1,0 +1,14 @@
+.app {
+  width: 1000px;
+  border: solid 1px gray;
+  border-radius: 3px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.app-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+}
