@@ -33,8 +33,13 @@ const AddTodo = ({ users, addTodo }) => {
         <fieldset>
           <legend>Add todo</legend>
           <p>
+            <label htmlFor="add-todo-title">Title</label>
             <br />
-            <input onChange={(e) => setTitle(e.target.value)} value={title} />
+            <input
+              id="add-todo-title"
+              onChange={(e) => setTitle(e.target.value)}
+              value={title}
+            />
           </p>
 
           <p>
